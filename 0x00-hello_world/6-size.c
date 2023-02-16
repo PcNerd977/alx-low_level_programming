@@ -1,10 +1,10 @@
 #include <stdio.h>
+
 /**
+* main - Entry point
 *
-*main - Entry point
-*
-*Return: Always 0 (success)
-*I want to write a program that print sizes of all the data types
+* Return: Always 0 (success)
+* I want to write a program that print sizes of all the data types
 */
 int main(void)
 {
