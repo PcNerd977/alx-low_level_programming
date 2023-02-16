@@ -1,6 +1,10 @@
 #include <stdio.h>
 /**
-*I want to write a program that print "Programming is like building a multilingual language
+*main - Entry point
+*I want to write a program that print "Programming is like building a
+*multilingual language
+*
+*Return: Always 0 (success)
 */
 
 int main(void)
