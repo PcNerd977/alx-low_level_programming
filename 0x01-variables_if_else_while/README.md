@@ -1,0 +1,1 @@
+This project is all about using variables, if, ewhile and for loops
