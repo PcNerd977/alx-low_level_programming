@@ -13,10 +13,14 @@ n = 48;
 while (n < 58)
 {
 putchar(n);
+if (n < 57)
+{
 putchar(',');
 putchar(' ');
+}
 n += 1;
 }
- putchar('\n');
+
+putchar('\n');
 return (0);
 }
