@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
-*main - This program print  all the digit of number base 10
+*main - print all alphabets in lower case in reverse order
 *
 *Return: Always 0 (success)
 */
@@ -8,11 +9,11 @@
 int main(void)
 {
 int n;
-n = 0;
-while (n < 10)
+n = 122;
+while (n >= 97)
 {
-scanf("%d", n);
-n += 1;
+putchar(n);
+n -= 1;
 }
 putchar('\n');
 return (0);
