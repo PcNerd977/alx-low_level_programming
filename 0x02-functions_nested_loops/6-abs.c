@@ -3,14 +3,12 @@
 /**
  * _abs - return absolute value of the entry
  *
- * @n - the value we are taking in
+ * @n: the value we are taking in
  * Return: return the value
  */
 
 int _abs(int n)
 {
-	
-
 	if (n >= 0)
 	{
 		return (n);
