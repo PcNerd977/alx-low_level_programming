@@ -3,7 +3,7 @@
 /**
  * _abs - return absolute value of the entry
  *
- * int - the value we are taking in
+ * @n - the value we are taking in
  * Return: return the value
  */
 

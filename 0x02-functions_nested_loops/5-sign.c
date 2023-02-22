@@ -2,7 +2,7 @@
 
 /**
  * print_sign - check if a number is positive, negative or zero
- *
+ * @n - 
  * Return: -1 if negative, +1 if positve or 0 if zero
  */
 
