@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_alphabet_x10 - print all the alphabet in lower case x10
+ *
+ * Return: nothing
+*/
 void print_alphabet_x10(void)
 {
 	int a;
