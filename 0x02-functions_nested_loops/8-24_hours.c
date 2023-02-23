@@ -9,11 +9,11 @@
 void jack_bauer(void)
 {
 	int a;
-	for (a = 48; a <= 57; a++)
+	for (a = 48; a <= 50; a++)
 	{
 		for (int b = 48; b <= 57; b++)
 		{
-			for (int c = 48; c <= 57; c++)
+			for (int c = 48; c <= 53; c++)
 			{
 				for (int d = 48; d <= 57; d++)
 				{
