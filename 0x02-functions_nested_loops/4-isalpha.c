@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check if the entry is alphabet
- * c - int value of the entry
+ * @c: int value of the entry
  * Return: 1 if true and 0 if false
  */
 
