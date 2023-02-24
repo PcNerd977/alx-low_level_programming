@@ -1,8 +1,8 @@
+#include "main.h"
 /**
 * main - causes an infinite loop
 * Return: 0
-* @i: is not been incremented 
-*
+* @i: is not been incremented
 */
 
 int main(void)
