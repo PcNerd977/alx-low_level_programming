@@ -1,6 +1,6 @@
 /**
  * _strlen - retun the lenght of a string
- * @s: a pointer 
+ * @s: a pointer
  * Return: lenght
  */
 int _strlen(char *s)
