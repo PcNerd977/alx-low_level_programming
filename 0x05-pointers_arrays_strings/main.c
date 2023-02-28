@@ -10,10 +10,12 @@
 int main(void)
 {
 	char *str;
-	
+	char s[20] = "My School";
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	 _puts(str);
+	//str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	printf("%s\n", s);
+	rev_string(s);
+	printf("%s\n", s);
 	
 	return (0);
 }
