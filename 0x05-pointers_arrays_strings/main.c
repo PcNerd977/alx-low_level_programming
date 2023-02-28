@@ -12,8 +12,8 @@ int main(void)
 	char *str;
 	char s[20] = "My School";
 
-	str = "abcde0123456789";
-	puts2(str);
+	str = "0123456789";
+	puts_half(str);
 
 	return (0);
 }
