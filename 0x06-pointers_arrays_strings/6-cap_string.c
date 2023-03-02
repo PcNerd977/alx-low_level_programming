@@ -15,12 +15,12 @@ char *cap_string(char *str)
 		int j = 0;
 		int a = 0;
 
-while (a < 12 && j == 0)
-{
-if (str[i] == list[a])
-j = 1;
-a++;
-}
+	while (a < 12 && j == 0)
+	{
+		if (str[i] == list[a])
+		j = 1;
+		a++;
+	}
 		if (j == 1)
 		{
 			if (str[i + 1] >= 97 && str[i + 1] <= 122)

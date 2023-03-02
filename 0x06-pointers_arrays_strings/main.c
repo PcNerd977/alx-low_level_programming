@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	   char s1[98];
+	    char s1[98];
     char *ptr;
     int i;
 
