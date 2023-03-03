@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * rot13 - encode a string in rot13
+ * @str: a pointer
+ * Return: a pointer
+ */
 char *rot13(char *str)
 {
 	int i;
