@@ -15,7 +15,7 @@ char *cap_string(char *str)
 		int j = 0;
 		int a = 0;
 
-	while (a < 13 && j == 0)
+	while (a < 12 && j == 0)
 	{
 		if (str[i] == list[a])
 		j = 1;
