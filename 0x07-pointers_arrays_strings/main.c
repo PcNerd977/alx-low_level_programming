@@ -8,11 +8,16 @@
  */
 int main(void)
 {
-    char *s = "The journey of a thousand sleepless nights start with printf(hello world)";
-    char *f = "sleepp";
-    char *t;
-
-    t = _strstr(s, f);
-    printf("%s\n", t);
+        char board[8][8] = {
+        {'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'},
+        {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+        {'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'},
+    };
+    print_chessboard(board);
     return (0);
 }
