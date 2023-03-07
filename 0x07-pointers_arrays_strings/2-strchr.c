@@ -10,7 +10,6 @@ char *_strchr(char *s, char c)
 {
 	int i;
 	int end_loop = 0;
-	int char_found = 0;
 	char *ptr;
 
 	for (i = 0; s[i] != '\0' && end_loop == 0; i++)
